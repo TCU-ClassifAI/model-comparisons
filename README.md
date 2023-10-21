@@ -15,4 +15,5 @@ AWS Transcribe 1
 - Used English general model
     NO CUSTOMIZATION 
     NO special vocabulary
+  results in aws_transcribe_1.json
     
