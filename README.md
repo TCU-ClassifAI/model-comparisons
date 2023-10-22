@@ -39,7 +39,7 @@ Whisper 2
 ## Files
 
 * [Original audio file](Linux-9-28-2023.m4a)
-* [Reduced noise audio file](cleaned_audio.wav)
+* [Reduced noise audio file](cleaned_audio.mp3)
 * [AWS Transcribe 1](aws_transcribe_1.json)
 * [Whisper 1](whisper_1.json)
 * [Whisper 2](whisper_2.json)
