@@ -51,7 +51,7 @@ for i, chunk in enumerate(audio[::chunk_length_ms]):
     )
 
     # Export the cleaned segment
-    cleaned_audio_segment.export(f"./cleaned_chunks/{cleaned_chunk_name}", format="mp3")
+    cleaned_audio_segment.export(f"./cleaned_chunks/cleaned_{chunk_name}", format="mp3")
 
 # Combine all cleaned chunks into a single file
 combined = AudioSegment.empty()
