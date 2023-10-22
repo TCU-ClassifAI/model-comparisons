@@ -17,3 +17,10 @@ AWS Transcribe 1
     NO special vocabulary
   results in aws_transcribe_1.json
     
+Whisper 1
+- https://github.com/openai/whisper/
+- Used Large v2 model
+    NO CUSTOMIZATION 
+    NO special vocabulary
+  results in whisper_1.json
+  - Took around 10 minutes to run on 1 hour of audio, on ml.cs.tcu.edu
