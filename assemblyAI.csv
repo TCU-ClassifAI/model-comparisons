@@ -1,0 +1,1155 @@
+Time,Speaker,Speech Texts
+00:00:00,Speaker A,Going to do some questions in partitions.
+00:00:05,Speaker A,How to do partitions.
+00:00:06,Speaker A,"Okay, so we officially come to chapter five."
+00:00:10,Speaker A,We're going to make partitions.
+00:00:11,Speaker A,All right?
+00:00:12,Speaker A,"So before we do that, I want to see an interesting phenomenon."
+00:00:23,Speaker A,All right?
+00:00:26,Speaker A,First I want you to tell me what are the results we're looking at?
+00:00:31,Speaker A,What's the meaning of the results before we see why they have that result?
+00:00:37,Speaker A,"First, I want you to see the results."
+00:00:39,Speaker A,I see.
+00:00:40,Speaker A,And you want to tell me what we're seeing so far.
+00:00:47,Speaker A,"Doug, can you explain the results we're seeing so far?"
+00:00:51,Speaker A,No.
+00:00:52,Speaker A,"What's the command, Doug?"
+00:00:54,Speaker A,Why don't we start with that?
+00:00:56,Speaker A,What does I and D mean in there?
+00:01:00,Speaker A,ID is the inode.
+00:01:01,Speaker A,I know d means what directory.
+00:01:06,Speaker A,Right.
+00:01:07,Speaker A,So we are viewing the inode of the two folders which are slash and boot.
+00:01:17,Speaker A,Right.
+00:01:18,Speaker A,So anything weird about the results?
+00:01:23,Speaker A,The same.
+00:01:24,Speaker A,Are they the same folder?
+00:01:28,Speaker A,But their inode are the same?
+00:01:30,Speaker A,We just did a quiz.
+00:01:31,Speaker A,Right?
+00:01:31,Speaker A,You found the same I know they're the same file.
+00:01:33,Speaker A,Are they the same file?
+00:01:34,Speaker A,Yeah.
+00:01:35,Speaker A,You think so?
+00:01:36,Speaker A,They're hard linked.
+00:01:37,Speaker A,"Well, one of them is the original."
+00:01:38,Speaker A,Really?
+00:01:38,Speaker A,You hard link entire roof file system to boot folder?
+00:01:42,Speaker A,No.
+00:01:44,Speaker A,How do we make sense?
+00:01:45,Speaker A,Yes.
+00:01:45,Speaker A,Aren't they on two different partitions?
+00:01:47,Speaker A,"Oh, wow."
+00:01:48,Speaker A,Good.
+00:01:49,Speaker A,"That's a good VVN, right?"
+00:01:51,Speaker A,"So if I show you so, Danielle, tell me, what does that SDA mean?"
+00:02:03,Speaker A,Partition for hard drive.
+00:02:06,Speaker A,So what's the first partition name going to look like?
+00:02:08,Speaker A,SDA 1.
+00:02:09,Speaker A,Second.
+00:02:13,Speaker A,Good.
+00:02:14,Speaker A,So can tell me which partitions are these two folders residing on?
+00:02:22,Speaker A,"Okay, so they are just partitions, but they happen to be the host of different folders."
+00:02:29,Speaker A,"And when you have partitions, each partition may start the inode from one some servers too."
+00:02:37,Speaker A,So it's okay.
+00:02:38,Speaker A,So that's why you have the same inode number.
+00:02:40,Speaker A,Right.
+00:02:41,Speaker A,"So if I ask you a question, can we make hard link on a different partition?"
+00:02:48,Speaker A,That's more like an example question.
+00:02:50,Speaker A,Can we make a hard link on different partition?
+00:02:54,Speaker A,"Well, yes or no?"
+00:02:56,Speaker A,I don't think so.
+00:02:57,Speaker A,Why not?
+00:02:57,Speaker A,"There's two different parts of it, but there's two different partitions."
+00:03:03,Speaker A,Can you make a symbolic link on two different partitions?
+00:03:09,Speaker A,No.
+00:03:10,Speaker A,Do you know it's just a shortcut.
+00:03:14,Speaker A,Yeah.
+00:03:15,Speaker A,What's wrong with having different play?
+00:03:16,Speaker A,I could shortcut to another partition.
+00:03:18,Speaker A,Why not?
+00:03:22,Speaker A,Anyone has any thoughts?
+00:03:27,Speaker A,"Well, you said, can we make hard links on different partitions?"
+00:03:31,Speaker A,Yeah.
+00:03:31,Speaker A,"You said earlier that they're different hosts, though, with files."
+00:03:35,Speaker A,I guess.
+00:03:36,Speaker A,"But if you make a hard link on different partitions, are they going to confuse it with the idle numbers?"
+00:03:41,Speaker A,Because they have identical idle numbers.
+00:03:44,Speaker A,Yeah.
+00:03:45,Speaker A,Right.
+00:03:46,Speaker A,Because two partitions are going to reuse the numbers.
+00:03:48,Speaker A,That's why you don't want to make them on two different partitions.
+00:03:51,Speaker A,"But symbolic doesn't matter, right."
+00:03:54,Speaker A,The path is different.
+00:03:57,Speaker A,"So that's why you can make symbolic files across different partition, but not hard."
+00:04:03,Speaker A,Makes sense.
+00:04:04,Speaker A,"All right, so now we see the idea of partitions."
+00:04:08,Speaker A,Let's talk about more information before we move to partitions.
+00:04:13,Speaker A,"Okay, I wanted to catch some memories."
+00:04:16,Speaker A,"We know that there's a hard drive, right?"
+00:04:18,Speaker A,Assume that's a hard drive.
+00:04:21,Speaker A,"We're going to have partition one, partition two, partition three, and so on and so forth."
+00:04:26,Speaker A,Right.
+00:04:28,Speaker A,"So in this part, the beginning of the partition, we mentioned there are two different types of technology options."
+00:04:36,Speaker A,Do you remember what are these two options?
+00:04:40,Speaker A,Swap.
+00:04:41,Speaker A,Swap?
+00:04:42,Speaker A,Swap is a partition.
+00:04:44,Speaker A,"You know it that's good, but it's not the beginning part."
+00:04:46,Speaker A,"So these are the partitions, right."
+00:04:48,Speaker A,The beginning of the part is not a partition.
+00:04:51,Speaker A,Is it the NVMe and the PC?
+00:04:54,Speaker A,Are you brought the connection type?
+00:04:56,Speaker A,"No, not the type of hardware."
+00:04:58,Speaker A,No.
+00:04:59,Speaker A,"Because remember we mentioned this one has the boolean and the table partitions, right?"
+00:05:06,Speaker A,"Because you have partitions, you have to have a record to store the partition information."
+00:05:14,Speaker A,Doesn't ring the bell at all.
+00:05:15,Speaker A,Nothing.
+00:05:17,Speaker A,I don't write it down.
+00:05:22,Speaker A,Master block.
+00:05:24,Speaker A,Must put record.
+00:05:25,Speaker A,Right.
+00:05:26,Speaker A,The other new technology rather quiz on it.
+00:05:28,Speaker A,GPT.
+00:05:30,Speaker A,Good.
+00:05:30,Speaker A,"GPT, in case you forgot."
+00:05:33,Speaker A,Chad GPT.
+00:05:36,Speaker A,Right.
+00:05:36,Speaker A,So what's the difference between the two in terms of making partitions?
+00:05:45,Speaker A,So how many primary partitions can have here?
+00:05:48,Speaker A,Primary partitions?
+00:05:49,Speaker A,Four.
+00:05:50,Speaker A,Very good.
+00:05:50,Speaker A,Four primary partitions.
+00:05:51,Speaker A,How about here?
+00:05:53,Speaker A,Technically unlimited.
+00:05:55,Speaker A,Okay.
+00:05:55,Speaker A,Yeah.
+00:05:55,Speaker A,So normally it's 128.
+00:05:57,Speaker A,Technically unlimited.
+00:05:58,Speaker A,Right.
+00:05:59,Speaker A,So four.
+00:06:00,Speaker A,But can you have more than four partitions here?
+00:06:03,Speaker A,How do we do it then?
+00:06:05,Speaker A,Extend.
+00:06:06,Speaker A,Good.
+00:06:07,Speaker A,"Tend to be partition, right?"
+00:06:08,Speaker A,How many?
+00:06:10,Speaker A,How many extended participants?
+00:06:12,Speaker A,Six.
+00:06:17,Speaker A,As many as we can.
+00:06:18,Speaker A,"Oh, God."
+00:06:19,Speaker A,We're now looking at this term 64.
+00:06:22,Speaker A,Okay.
+00:06:23,Speaker A,I think we guys will forget it.
+00:06:24,Speaker A,"This one's, the middle one, anyone remember?"
+00:06:31,Speaker A,"Because the 64 is another term, it's a logical one."
+00:06:37,Speaker A,So we have one extended partition.
+00:06:39,Speaker A,Right.
+00:06:40,Speaker A,"On top of that, you're going to have a lot of many, many logical partitions."
+00:06:45,Speaker A,"It could be 32, 64, C, three."
+00:06:47,Speaker A,Right.
+00:06:49,Speaker A,Does that make sense?
+00:06:50,Speaker A,The structure?
+00:06:51,Speaker A,"You do want to remember the digital, the difference because later we're going to see that again for MBR four partitions, right?"
+00:07:01,Speaker A,One of the four can be converted to extended partitions.
+00:07:06,Speaker A,"On top of the tended partition, you can have certain number of logical partitions."
+00:07:11,Speaker A,Right?
+00:07:13,Speaker A,Makes sense.
+00:07:15,Speaker A,Because there's differences.
+00:07:16,Speaker A,"When we make partitions, these differences will be reflected in a command that we gave a limit on logical partition."
+00:07:28,Speaker A,"Logical, 32 or 63 sometimes depends."
+00:07:35,Speaker A,Makes sense so far.
+00:07:38,Speaker A,"All right, so let's take a look."
+00:07:40,Speaker A,"So of course, this one is the way to see it, right?"
+00:07:45,Speaker A,So another major command I will learn is code f disk into that L is a listing information number partition.
+00:07:54,Speaker A,Okay.
+00:07:54,Speaker A,So what drive are we listing so far for this command?
+00:08:00,Speaker A,Which drive we're listing as the information?
+00:08:07,Speaker A,The second drive.
+00:08:08,Speaker A,The second hard drive.
+00:08:09,Speaker A,Right.
+00:08:10,Speaker A,"So we have nothing on there, right."
+00:08:12,Speaker A,"Remember when you created your VM, you have the second drive."
+00:08:17,Speaker A,"We didn't do anything on it, right?"
+00:08:19,Speaker A,Yeah.
+00:08:20,Speaker A,"After this chapter, we're going to start doing many things on there, even on the exam, the homework."
+00:08:25,Speaker A,Okay?
+00:08:26,Speaker A,So here the type.
+00:08:29,Speaker A,"When this is a Dos is MBO, I can convert to GPT so I can show you how to do it."
+00:08:38,Speaker A,"So now if I work on the drive, I just do have disk without the app."
+00:08:44,Speaker A,"Okay, here's one thing."
+00:08:46,Speaker A,Today I will mention a few mistakes.
+00:08:48,Speaker A,"When people do the exam, when you make a partition, you always work on the hard drive."
+00:08:56,Speaker A,"You don't work on SDB one, SDB Two SDB you make on the drive and then make a partition on top of it."
+00:09:01,Speaker A,"So the exam people say, oh, why?"
+00:09:03,Speaker A,I keep got around.
+00:09:04,Speaker A,They type SDB one SDB because they want to make a partition SDB three.
+00:09:08,Speaker A,"But you don't directly like Fdisk on a partition, you Fdisk on the drive."
+00:09:15,Speaker A,"I see that every year in the exam, they're nervous."
+00:09:19,Speaker A,"They didn't do a practice telling me that didn't work, didn't work."
+00:09:22,Speaker A,"I said, I know why it didn't work."
+00:09:24,Speaker A,They sent me a jerk because I know.
+00:09:26,Speaker A,I know how it didn't work.
+00:09:27,Speaker A,I didn't tell them why it didn't work.
+00:09:29,Speaker A,"But in exam, I couldn't tell you."
+00:09:30,Speaker A,That's why I'm telling you right now.
+00:09:32,Speaker A,"Don't write SDB one, two, three."
+00:09:34,Speaker A,Just SDB right now.
+00:09:40,Speaker A,So one command I use a lot SM is to print all the possible options.
+00:09:45,Speaker A,There are a lot of options.
+00:09:47,Speaker A,So let's create a GPT partition just to show right.
+00:09:52,Speaker A,You have a tab g?
+00:09:54,Speaker A,I make a GPT partition.
+00:09:56,Speaker A,Now I tap.
+00:09:57,Speaker A,W.
+00:09:59,Speaker A,What does w mean?
+00:10:00,Speaker A,Save.
+00:10:01,Speaker A,Very good.
+00:10:02,Speaker A,"Save and quit, right?"
+00:10:03,Speaker A,"If I do a Q, quit, right?"
+00:10:06,Speaker A,Good.
+00:10:06,Speaker A,So now I can save it.
+00:10:09,Speaker A,I want to show the difference.
+00:10:14,Speaker A,Do you see that?
+00:10:15,Speaker A,Change to GPT.
+00:10:18,Speaker A,"Okay, now let's back to MBR, because I want to show both again for help."
+00:10:26,Speaker A,"And if you see the dos is O letter O, then W you've got it to be Dos."
+00:10:35,Speaker A,"So far, so good."
+00:10:38,Speaker A,"And in exam, I may want you to create either Dos or GBDs."
+00:10:44,Speaker A,Make sure you do the right?
+00:10:45,Speaker A,Yes.
+00:10:47,Speaker A,"When you press M, how did you do that?"
+00:10:51,Speaker A,"So M is whenever you come in, like now, I'm going to make purchase."
+00:10:54,Speaker A,"I'm going to go to the window of this, right?"
+00:10:58,Speaker A,So here there are many options.
+00:11:01,Speaker A,A lot of times you may not remember.
+00:11:03,Speaker A,You only need to remember a few.
+00:11:05,Speaker A,"But in a lab example, it's open book anyway."
+00:11:07,Speaker A,So just touch M.
+00:11:10,Speaker A,It's going to show you all the options.
+00:11:12,Speaker A,There are many options.
+00:11:14,Speaker A,So I want to tell me which one is going to create a new partition.
+00:11:22,Speaker A,N.
+00:11:22,Speaker A,Very good.
+00:11:23,Speaker A,"N stands for new, right?"
+00:11:25,Speaker A,"New partition, right?"
+00:11:27,Speaker A,So now it's so easy.
+00:11:28,Speaker A,Let's go.
+00:11:30,Speaker A,Let's help N.
+00:11:36,Speaker A,Can you make sense about what do we see here?
+00:11:44,Speaker A,Why do we see this?
+00:11:47,Speaker A,Now I will quit I will do a different.
+00:11:57,Speaker A,I will do a new as well.
+00:12:00,Speaker A,I want you to see the difference between the two.
+00:12:05,Speaker A,Why there's a difference and what caused that difference.
+00:12:10,Speaker A,I know you now have that answer.
+00:12:12,Speaker A,Yes.
+00:12:12,Speaker A,MBR and GPT.
+00:12:13,Speaker A,Very good.
+00:12:14,Speaker A,Now why does this one start with four?
+00:12:17,Speaker A,"The GPT that you start with, why not start with one?"
+00:12:21,Speaker A,Didn't we already put them in there?
+00:12:23,Speaker A,Put what in there?
+00:12:23,Speaker A,We made them partitions.
+00:12:25,Speaker A,We made what?
+00:12:25,Speaker A,Partition?
+00:12:26,Speaker A,We created the virtual machine.
+00:12:28,Speaker A,How many partitions?
+00:12:29,Speaker A,We created three.
+00:12:31,Speaker A,"We created three, right?"
+00:12:33,Speaker A,"The slash, boot, food, fi and root."
+00:12:37,Speaker A,So that's why I start from four.
+00:12:38,Speaker A,"And it was 128 for TPT, right?"
+00:12:43,Speaker A,And for SDB.
+00:12:50,Speaker A,For SDB.
+00:12:52,Speaker A,It's because it's an MBR.
+00:12:55,Speaker A,They tell us to have create a permit partition or an extended partition.
+00:13:02,Speaker A,Makes sense.
+00:13:04,Speaker A,So now let's start with the permit partition.
+00:13:07,Speaker A,Okay.
+00:13:08,Speaker A,"Again, if you want to do a permit partition now you can just hit Enter or you type P."
+00:13:12,Speaker A,"Either one is fine because default, they want to tell default is one."
+00:13:15,Speaker A,Right?
+00:13:17,Speaker A,Okay.
+00:13:18,Speaker A,"So now we can choose a number, any number you want."
+00:13:21,Speaker A,It doesn't have to be one.
+00:13:23,Speaker A,Could be either 1234.
+00:13:25,Speaker A,Either one.
+00:13:25,Speaker A,"But now five now, right?"
+00:13:28,Speaker A,"Lendon, why don't we pick a number?"
+00:13:30,Speaker A,Three.
+00:13:31,Speaker A,Okay.
+00:13:31,Speaker A,Why don't we pick one for the time they don't want three?
+00:13:35,Speaker A,Because easy.
+00:13:36,Speaker A,I don't type right.
+00:13:37,Speaker A,I just can't answer.
+00:13:40,Speaker A,Okay.
+00:13:40,Speaker A,The next one is also critical.
+00:13:43,Speaker A,After you make a number selection.
+00:13:45,Speaker A,"Normally, you don't make a choice here because the number here show that the first sector available to create partition."
+00:13:54,Speaker A,"Unless you're really good, you know how to calculate."
+00:13:56,Speaker A,You can change the number in our exam.
+00:13:59,Speaker A,You know how to change it?
+00:14:00,Speaker A,We start with the default one.
+00:14:02,Speaker A,"Okay, just hit enter."
+00:14:08,Speaker A,"Okay, now we can specify the size of the partition that we want."
+00:14:14,Speaker A,"So Linda, what the size?"
+00:14:15,Speaker A,You want the default?
+00:14:19,Speaker A,"No, we don't want the default too much."
+00:14:21,Speaker A,I want to create many partitions.
+00:14:23,Speaker A,I don't want to quit everything.
+00:14:25,Speaker A,Okay.
+00:14:26,Speaker A,Because it's using all maybe 600 Mac.
+00:14:28,Speaker A,"Yeah, that works."
+00:14:29,Speaker A,"Okay, so again, this one's pretty good."
+00:14:35,Speaker A,600 Mac.
+00:14:38,Speaker A,"Many, many times people forgot the plus."
+00:14:42,Speaker A,Because that's addition to this.
+00:14:44,Speaker A,Right.
+00:14:45,Speaker A,600 math.
+00:14:47,Speaker A,"Again, I see that exam many times people struggle."
+00:14:51,Speaker A,I wouldn't work.
+00:14:51,Speaker A,It wouldn't work.
+00:14:52,Speaker A,Wouldn't work.
+00:14:53,Speaker A,Raise a hand.
+00:14:54,Speaker A,Can't help me.
+00:14:55,Speaker A,Again I say sorry.
+00:14:56,Speaker A,I know the answer.
+00:14:58,Speaker A,I mentioned that many times.
+00:15:00,Speaker A,I just couldn't tell you.
+00:15:03,Speaker A,Right.
+00:15:03,Speaker A,"Again, don't forget to pause."
+00:15:05,Speaker A,"If you forgot a pause, it's not going to work."
+00:15:07,Speaker A,There's also capital M.
+00:15:10,Speaker A,"All right, then enter."
+00:15:13,Speaker A,"All right, remove the signature."
+00:15:15,Speaker A,That's fine because I did something already.
+00:15:18,Speaker A,So now let's see the results.
+00:15:21,Speaker A,We made a partition already.
+00:15:22,Speaker A,So the P stands for print.
+00:15:25,Speaker A,We made a partition.
+00:15:27,Speaker A,Makes sense.
+00:15:29,Speaker A,But we have not saved that yet.
+00:15:32,Speaker A,"If you want to save it, you do the W."
+00:15:36,Speaker A,Or you can continue working on it.
+00:15:38,Speaker A,Right.
+00:15:39,Speaker A,So I just do a w.
+00:15:40,Speaker A,This come right?
+00:15:42,Speaker A,FTP again showed up.
+00:15:45,Speaker A,"If in an exam homework, when you made a mistake, you do not want to save it."
+00:15:50,Speaker A,Don't panic.
+00:15:51,Speaker A,Just pick two and nothing has happened.
+00:15:55,Speaker A,Like you went to Las Vegas.
+00:15:57,Speaker A,Everything stays there no memory.
+00:16:00,Speaker A,All right.
+00:16:02,Speaker A,Now let's make a new partition.
+00:16:04,Speaker A,And again new partition.
+00:16:05,Speaker A,Right.
+00:16:07,Speaker A,Do you want to try the extended partition this time?
+00:16:10,Speaker A,Because we had a primary.
+00:16:11,Speaker A,Why don't we try something different?
+00:16:12,Speaker A,Right?
+00:16:13,Speaker A,"So this time, because extended is a different one."
+00:16:17,Speaker A,"We have letter E, power."
+00:16:21,Speaker A,Two is fine.
+00:16:22,Speaker A,"I can choose three, four, right?"
+00:16:23,Speaker A,Any number.
+00:16:23,Speaker A,Right.
+00:16:24,Speaker A,But I cannot use one anymore because one was taken.
+00:16:27,Speaker A,Right.
+00:16:28,Speaker A,Let's do two.
+00:16:30,Speaker A,Default doesn't change.
+00:16:31,Speaker A,Right again.
+00:16:33,Speaker A,"Linda, what size do you want?"
+00:16:36,Speaker A,Let's go 100 megabytes.
+00:16:37,Speaker A,How many?
+00:16:38,Speaker A,Hundred?
+00:16:40,Speaker A,Yeah.
+00:16:41,Speaker A,You're very stingy.
+00:16:44,Speaker A,"All right, let's show it later."
+00:16:47,Speaker A,You're going to regret that decision.
+00:16:48,Speaker A,I'll tell you why.
+00:16:50,Speaker A,All right.
+00:16:51,Speaker A,"We had an extended, right?"
+00:16:53,Speaker A,Can we use the extended partition for anything?
+00:16:57,Speaker A,"Yes, we could."
+00:16:58,Speaker A,Logical partition.
+00:16:59,Speaker A,"Logical, right."
+00:17:00,Speaker A,Good.
+00:17:01,Speaker A,But we cannot really work on the extended partition if we do not have logicals.
+00:17:05,Speaker A,Because the folder has to be on logical.
+00:17:07,Speaker A,So you have extended.
+00:17:09,Speaker A,You've never done the job.
+00:17:10,Speaker A,You have to continue to create new partitions.
+00:17:13,Speaker A,Now do you see the difference?
+00:17:16,Speaker A,What's the difference?
+00:17:18,Speaker A,"To add logicals, it has to be five or greater."
+00:17:21,Speaker A,Yeah.
+00:17:21,Speaker A,"So the logical showed up, but the E disappeared."
+00:17:25,Speaker A,Why the e disappeared.
+00:17:28,Speaker A,I have one for it.
+00:17:29,Speaker A,The program is smart.
+00:17:31,Speaker A,"Okay, let's make a logical partition."
+00:17:35,Speaker A,Right.
+00:17:38,Speaker A,Default.
+00:17:39,Speaker A,It's good.
+00:17:40,Speaker A,So what a size you want?
+00:17:44,Speaker A,We don't have very much data to use.
+00:17:49,Speaker A,Five.
+00:17:50,Speaker A,"Okay, come and make a one on 100."
+00:17:53,Speaker A,We have to change the extended partition.
+00:17:58,Speaker A,"I know, but first can we make more than 100?"
+00:18:00,Speaker A,I don't think so.
+00:18:01,Speaker A,No.
+00:18:01,Speaker A,So what Lenton did was that when he made that extended partition.
+00:18:06,Speaker A,"Meaning that in the future you may have 2030 partitions, but their total size is going to be 100."
+00:18:14,Speaker A,So you didn't do a wonderful planning.
+00:18:17,Speaker A,But that's okay.
+00:18:18,Speaker A,Let's make 50.
+00:18:20,Speaker A,I want to show the idea.
+00:18:22,Speaker A,That's fine.
+00:18:24,Speaker A,"So that's why in the future when you make extended partitions, you want to plan up time to say, oh, I can create five partition, each one with two gig."
+00:18:31,Speaker A,Then you need a two gig for that extended partition.
+00:18:34,Speaker A,Otherwise you have to delete that one to remake it.
+00:18:38,Speaker A,Right.
+00:18:38,Speaker A,Now we did that.
+00:18:41,Speaker A,That's print.
+00:18:45,Speaker A,Yes.
+00:18:45,Speaker A,"I bet if you make your extended too large, like if you were to do what made too large, like a 500 p, they wouldn't able to make that much."
+00:18:58,Speaker A,Right.
+00:18:59,Speaker A,They're going to take the rest of the space.
+00:19:02,Speaker A,If that's the case for Zach.
+00:19:04,Speaker A,"Zach, say if I created extend partition, taking all the spaces."
+00:19:08,Speaker A,Right.
+00:19:08,Speaker A,My question I can't make a new primary partition.
+00:19:12,Speaker A,"No, you have no space, but you can make a lot of logical partitions, right?"
+00:19:18,Speaker A,Because you have a lot of space.
+00:19:20,Speaker A,"So far, so good."
+00:19:22,Speaker A,Are we happy with the results?
+00:19:25,Speaker A,"If so, I'm going to save it."
+00:19:27,Speaker A,There's no return.
+00:19:28,Speaker A,"You want to save it's, fine."
+00:19:32,Speaker A,I can delete anyway.
+00:19:34,Speaker A,So sometimes they want to be riddled.
+00:19:37,Speaker A,"It's not always necessary, but sometimes they want it to be riddled to make sure in sync."
+00:19:42,Speaker A,Okay.
+00:19:43,Speaker A,Always done for the cost.
+00:19:45,Speaker A,Ready for data.
+00:19:46,Speaker A,Striking.
+00:19:46,Speaker A,"Now, are we able to use the partitions yet?"
+00:19:52,Speaker A,What do we have to do so that we can use that partition?
+00:19:58,Speaker A,Because now you just have a lot.
+00:20:01,Speaker A,But it's not ready for you to live in.
+00:20:04,Speaker A,"You had to create utility floors, painting, right?"
+00:20:09,Speaker A,So that process is called creating a file system.
+00:20:13,Speaker A,Does that make sense?
+00:20:15,Speaker A,So now you just claim the territory.
+00:20:18,Speaker A,"But it's no plumbing, nothing in there."
+00:20:21,Speaker A,It's just a house.
+00:20:22,Speaker A,"You had to furnish it, right?"
+00:20:24,Speaker A,You just bought a house.
+00:20:25,Speaker A,"A lot of work, right?"
+00:20:26,Speaker A,So now let's talk about what exactly are we doing furnishing.
+00:20:32,Speaker A,"What the furnishing look like in the partition, right?"
+00:20:35,Speaker A,So what's going to be look like?
+00:20:39,Speaker A,Then?
+00:20:39,Speaker A,I will show you how it looked like.
+00:20:41,Speaker A,"But before we do, that how we talk about so this one is tight."
+00:20:46,Speaker A,Regular data structures.
+00:20:49,Speaker A,So what's going to be the structure inside each partition?
+00:20:57,Speaker A,"So each partition is going to store files, right?"
+00:21:00,Speaker A,And each file is identified.
+00:21:02,Speaker A,What I know number I know.
+00:21:04,Speaker A,Right.
+00:21:04,Speaker A,"So there are going to be a lot of inodes, right?"
+00:21:08,Speaker A,A lot of them.
+00:21:10,Speaker A,What else does INO have?
+00:21:14,Speaker A,Data blocks.
+00:21:17,Speaker A,Say again?
+00:21:17,Speaker A,Data blocks.
+00:21:19,Speaker A,Good.
+00:21:20,Speaker A,"So I know they just the user ownership, right?"
+00:21:24,Speaker A,"Permission of the file, right."
+00:21:25,Speaker A,What's?
+00:21:26,Speaker A,"It does not have the data, for example, the file's content."
+00:21:29,Speaker A,Right.
+00:21:30,Speaker A,"So you need a data block, right?"
+00:21:36,Speaker A,You need a data blocks to hold the data.
+00:21:38,Speaker A,Does that make sense?
+00:21:41,Speaker A,So I know we have different sizes.
+00:21:43,Speaker A,That 128 bytes or 256 bytes really depend on the system.
+00:21:49,Speaker A,"You have a K, two K 4K for the data blocks, right?"
+00:21:58,Speaker A,So a deep question will be do we know the ratio between the I know and data blocks?
+00:22:05,Speaker A,And why does the ratio matter?
+00:22:11,Speaker A,They won't have one.
+00:22:12,Speaker A,I know.
+00:22:13,Speaker A,And one data block.
+00:22:15,Speaker A,Is that the case if I'm running for Netflix?
+00:22:20,Speaker A,"The movie, right?"
+00:22:22,Speaker A,"Each movie going to take a lot of data blocks, right?"
+00:22:25,Speaker A,So naturally you just want a few.
+00:22:28,Speaker A,I know.
+00:22:29,Speaker A,"Because you may have only 1000 or 20 00 10,000 movies, but you can have a lot of data, right, if you're running a blog, right?"
+00:22:38,Speaker A,"People just posting like good, yeah."
+00:22:42,Speaker A,Oh my God.
+00:22:43,Speaker A,Right?
+00:22:43,Speaker A,It's simple ones.
+00:22:44,Speaker A,Then you probably need more files to support different threads.
+00:22:48,Speaker A,So the ratio between the inode and devlog really depends on the application you have.
+00:22:55,Speaker A,Makes sense.
+00:22:57,Speaker A,Okay.
+00:22:59,Speaker A,"You want a hard question, exam questions."
+00:23:02,Speaker A,"Okay, let me ask this."
+00:23:04,Speaker A,"If I create a regular file, I should have used one inode."
+00:23:08,Speaker A,Am I right?
+00:23:10,Speaker A,If I create a regular file?
+00:23:13,Speaker A,"Well, do I use inode or no?"
+00:23:19,Speaker A,"Because each file end right here, square."
+00:23:22,Speaker A,"If I create a symbolic file, do I take inov or not?"
+00:23:29,Speaker A,"If I create a hard link file, why not?"
+00:23:32,Speaker A,Why are you changing?
+00:23:33,Speaker A,Because it has the same I know that's what?
+00:23:36,Speaker A,Your heart link.
+00:23:38,Speaker A,Makes sense.
+00:23:40,Speaker A,That's good.
+00:23:41,Speaker A,Good understanding.
+00:23:42,Speaker A,Anna.
+00:23:43,Speaker A,We're good.
+00:23:45,Speaker A,Now you're not that's good.
+00:23:46,Speaker A,Make sure.
+00:23:48,Speaker A,"Right, Brooke?"
+00:23:48,Speaker A,Makes sense.
+00:23:50,Speaker A,"Okay, but if I tell you in very rare situations, if you make a hard link, it could use an INO."
+00:24:01,Speaker A,"It's hard to know, but that's not going to be an exam."
+00:24:04,Speaker A,"I will tell later, after the return."
+00:24:07,Speaker A,Okay?
+00:24:07,Speaker A,That's a different situation.
+00:24:11,Speaker A,"Okay, let's back to here."
+00:24:14,Speaker A,"So, if you have a good size partition, you may have a lot of inodes, a lot of data blocks."
+00:24:19,Speaker A,Right.
+00:24:20,Speaker A,I just put them together where you can organize in some way.
+00:24:26,Speaker A,"However, you organize them in a nice way so that they're easy for you to retrieval, easy for deletion or any operations."
+00:24:36,Speaker A,We learn a divine and conquer.
+00:24:38,Speaker A,Right.
+00:24:39,Speaker A,We're going to group them together.
+00:24:40,Speaker A,Makes sense.
+00:24:44,Speaker A,All right.
+00:24:44,Speaker A,So now let's make file system and see the structure.
+00:24:47,Speaker A,So the command is make FS.
+00:24:52,Speaker A,I can do extension three.
+00:24:54,Speaker A,So there are many types.
+00:24:55,Speaker A,"Extension two, three, four."
+00:24:57,Speaker A,AXFS.
+00:24:59,Speaker A,There are like 100 different ones.
+00:25:02,Speaker A,So the type of partition sorry.
+00:25:05,Speaker A,File system you want it depending on your application.
+00:25:08,Speaker A,"You want high performance, you want speed, high reliability."
+00:25:12,Speaker A,Then you choose the one that meet your requirement.
+00:25:15,Speaker A,"Okay, so this one's a generic one for general purposes."
+00:25:19,Speaker A,Okay.
+00:25:20,Speaker A,Then I will make on SDB One.
+00:25:25,Speaker A,So this time you want to make on SDB one.
+00:25:28,Speaker A,Not IsDB how we do on SDB two?
+00:25:34,Speaker A,"Well, no."
+00:25:36,Speaker A,Why not?
+00:25:37,Speaker A,Because that can only hold logical partitions.
+00:25:40,Speaker A,"So you cannot make a file system on that extended, but you can do five."
+00:25:46,Speaker A,"Okay, it's done."
+00:25:53,Speaker A,So now let's see the structure.
+00:25:56,Speaker A,"Okay, you want to write down the command in case you want to write."
+00:26:17,Speaker A,Okay.
+00:26:18,Speaker A,So the first one I want to see is that UUID.
+00:26:27,Speaker A,That's something we're going to use in the future.
+00:26:30,Speaker A,"This stands universal, unique, identifiers."
+00:26:34,Speaker A,This one is the status quo that we use to refer to the partition.
+00:26:39,Speaker A,"Because nowadays, we no longer just use local drives."
+00:26:44,Speaker A,"We use claw, other things."
+00:26:47,Speaker A,The drives are no longer local.
+00:26:48,Speaker A,That's why UUID is unique across the world.
+00:26:53,Speaker A,"Otherwise, we can use DAP SDB One."
+00:26:55,Speaker A,"Right, but that's only local mini."
+00:26:59,Speaker A,"We'll learn how to use that, you guys in the future."
+00:27:02,Speaker A,"All right, let's see here."
+00:27:12,Speaker A,"Roddy, what does that mean?"
+00:27:13,Speaker A,Can you tell me the meaning of it?
+00:27:17,Speaker A,Roddy?
+00:27:19,Speaker A,Sorry.
+00:27:20,Speaker A,It's okay.
+00:27:21,Speaker A,I know you're a little tired.
+00:27:22,Speaker A,That's fine.
+00:27:23,Speaker A,"What's the meaning of this, too?"
+00:27:28,Speaker A,I was kind of zoning out.
+00:27:29,Speaker A,Say again?
+00:27:30,Speaker A,I was kind of zoning out.
+00:27:31,Speaker A,"Oh, that's okay."
+00:27:32,Speaker A,So that's the total.
+00:27:33,Speaker A,I know.
+00:27:34,Speaker A,Number you have and data block number you have on that partition.
+00:27:38,Speaker A,Right.
+00:27:39,Speaker A,And these two means what?
+00:27:43,Speaker A,How many free data blocks and how many idle do you have to use still?
+00:27:47,Speaker A,"Okay, so is that safe to say I can create 38,339 files or folders in general?"
+00:28:02,Speaker A,Depends on the size each file is.
+00:28:04,Speaker A,I know.
+00:28:05,Speaker A,Right.
+00:28:05,Speaker A,So I can create a file folder is item.
+00:28:07,Speaker A,"That means in theory, I can create a minute, right?"
+00:28:10,Speaker A,"In reality, that may not."
+00:28:11,Speaker A,Yes.
+00:28:12,Speaker A,Is the block count like the total blocks we have or is it per?
+00:28:16,Speaker A,This one or this one?
+00:28:17,Speaker A,The first one.
+00:28:17,Speaker A,This one is a total block.
+00:28:19,Speaker A,Okay.
+00:28:19,Speaker A,"This one's, the available ones, you may wonder, how do they know which one is used, which one is not used?"
+00:28:28,Speaker A,They have a bit map.
+00:28:30,Speaker A,"No, bitmap."
+00:28:32,Speaker A,A bit map.
+00:28:34,Speaker A,"You heard that term, bitmap."
+00:28:39,Speaker A,"So each bit, right."
+00:28:42,Speaker A,Zeros means not taken.
+00:28:44,Speaker A,One means taken.
+00:28:45,Speaker A,They have a bit amount for every single block they have.
+00:28:49,Speaker A,That's why you know the count.
+00:28:50,Speaker A,They're free.
+00:28:52,Speaker A,"So when your computer doing a check of the system, they actually check the map with every single one."
+00:29:00,Speaker A,That's why it takes so much time.
+00:29:02,Speaker A,You want to make sure it's clean or not.
+00:29:04,Speaker A,That's the idea.
+00:29:08,Speaker A,"So sounds like data structure techniques, right?"
+00:29:10,Speaker A,A lot of techniques.
+00:29:15,Speaker A,All right.
+00:29:16,Speaker A,Some other things.
+00:29:18,Speaker A,And I know the size 256.
+00:29:23,Speaker A,So this determines how large a single file could be.
+00:29:28,Speaker A,Later we're going to see some analysis.
+00:29:30,Speaker A,"We have some calculation, fancy calculator here, pointers."
+00:29:38,Speaker A,And what else?
+00:29:40,Speaker A,I want to show you how this block size?
+00:29:42,Speaker A,The data block is 4K.
+00:29:46,Speaker A,It's pretty big.
+00:29:46,Speaker A,The mountain system are bigger.
+00:29:48,Speaker A,Early system is okay now because we have more hard drives.
+00:29:52,Speaker A,We become very wasteful before.
+00:29:55,Speaker A,We're very conscientious.
+00:30:00,Speaker A,"Then you see the block group, right?"
+00:30:03,Speaker A,"Each block, you see that many, many blocks."
+00:30:07,Speaker A,And the group zero is special.
+00:30:10,Speaker A,You see the name of group zero.
+00:30:13,Speaker A,It's called a super block because they record other block information.
+00:30:21,Speaker A,It's a layer of layers.
+00:30:23,Speaker A,"Okay, so now we know how to make a file system."
+00:30:30,Speaker A,We made one.
+00:30:31,Speaker A,Any questions?
+00:30:35,Speaker A,So now we finish the two steps.
+00:30:38,Speaker A,"Create a partition, make a file system on it."
+00:30:40,Speaker A,Right?
+00:30:42,Speaker A,Are we able to use it now?
+00:30:47,Speaker A,"I guess my question is, how do we use it?"
+00:30:49,Speaker A,How do we really put data on that's?
+00:30:53,Speaker A,"Something different on Windows because this one is ready to be used, but you have to mount it to a folder."
+00:31:01,Speaker A,"All right, I'm going to mount this partition with file system to a folder."
+00:31:10,Speaker A,Why do I make a folder?
+00:31:11,Speaker A,Which folder you want to make?
+00:31:13,Speaker A,I can make any folder.
+00:31:15,Speaker A,Anyone want to make a folder?
+00:31:17,Speaker A,Give me a name.
+00:31:22,Speaker A,Easy.
+00:31:24,Speaker A,"Okay, so I'm going to create a file on that folder before mount."
+00:31:33,Speaker A,Okay.
+00:31:37,Speaker A,The file exists.
+00:31:38,Speaker A,I didn't do anything yet.
+00:31:41,Speaker A,Mount SDB one to that NF folder.
+00:31:51,Speaker A,Yes.
+00:31:52,Speaker A,And what is mounting doing so mount.
+00:31:55,Speaker A,So how do I say better?
+00:31:58,Speaker A,"Each partition and folder, right."
+00:32:01,Speaker A,They connect it to use the storage on the partition.
+00:32:09,Speaker A,You had to put a folder on it.
+00:32:11,Speaker A,And each folder can be attached to any point of mounting.
+00:32:16,Speaker A,Doesn't have to be the SDA Three.
+00:32:18,Speaker A,"With the root, they can go any place they want to."
+00:32:21,Speaker A,So originally Anna was on the root partition.
+00:32:26,Speaker A,Right.
+00:32:26,Speaker A,SDA Three.
+00:32:28,Speaker A,"And now I'm saying that I will relocate Anna to a different base station, which is the SDB one."
+00:32:36,Speaker A,"I have a new facility, new house."
+00:32:38,Speaker A,Just end up at a new house menu like this.
+00:32:41,Speaker A,Right.
+00:32:42,Speaker A,"So mount the type of fabric system, the device name and the folder you can mount to any folder you want."
+00:32:50,Speaker A,So now let's do it.
+00:32:53,Speaker A,So I can do mount command to show one of the things being mounted.
+00:32:56,Speaker A,I can break that up.
+00:32:58,Speaker A,"So you see, Anna has been mounted to that folder."
+00:33:02,Speaker A,"On that folder, turn to read and write real time."
+00:33:06,Speaker A,So why do you have to reiterate the file system type that you want?
+00:33:11,Speaker A,Okay.
+00:33:11,Speaker A,So nowadays you don't have to tell the type because the mount is very smart.
+00:33:16,Speaker A,"But to be safe, I want to tell them exactly I want to mount it."
+00:33:20,Speaker A,Right.
+00:33:20,Speaker A,Okay.
+00:33:22,Speaker A,Now here's the question.
+00:33:23,Speaker A,So are we still going to have the file?
+00:33:26,Speaker A,That was before the month.
+00:33:31,Speaker A,"Anna, what do you think?"
+00:33:33,Speaker A,Are we going to have the file before months?
+00:33:35,Speaker A,Do it again.
+00:33:40,Speaker A,"Yes, let's try."
+00:33:48,Speaker A,What do we have now?
+00:33:52,Speaker A,I got lost on the phone.
+00:33:54,Speaker A,It's because the file was lost.
+00:34:00,Speaker A,Let's see what's inside.
+00:34:03,Speaker A,Nothing in there.
+00:34:06,Speaker A,So where is the file?
+00:34:08,Speaker A,Before we think about can we create a new file under this place?
+00:34:16,Speaker A,Can we create a new file and we touch it here's?
+00:34:26,Speaker A,After me.
+00:34:35,Speaker A,Okay.
+00:34:35,Speaker A,So we can create new file.
+00:34:36,Speaker A,Everything's new.
+00:34:37,Speaker A,Now I can create a files and the new files going to be on the newly partitioned.
+00:34:43,Speaker A,Right.
+00:34:44,Speaker A,Makes sense.
+00:34:45,Speaker A,I can do everything I want as regular.
+00:34:47,Speaker A,Yes.
+00:34:49,Speaker A,"Wait, it was originally lost because you didn't have a partition to it."
+00:34:53,Speaker A,"No, it has partition."
+00:34:55,Speaker A,It was on a different folder.
+00:34:57,Speaker A,Later I want to show how to get it back.
+00:35:00,Speaker A,But why was it lost?
+00:35:01,Speaker A,"Yeah, later we'll show that."
+00:35:02,Speaker A,But I want to see this.
+00:35:03,Speaker A,So that's a different idea.
+00:35:06,Speaker A,Like when we first made the virtual machine.
+00:35:08,Speaker A,We made the original partition.
+00:35:10,Speaker A,We made a partition on the first hard drive.
+00:35:13,Speaker A,We made three partition on the first hard drive.
+00:35:15,Speaker A,Not anything on the second hard drive.
+00:35:18,Speaker A,Everything I'm working on is on the second hard drive.
+00:35:21,Speaker A,I will show you.
+00:35:23,Speaker A,So what do we have is we just create a partition.
+00:35:29,Speaker A,Right.
+00:35:30,Speaker A,And Anna was this partition.
+00:35:38,Speaker A,"Now I change the point attachment that Anna, for example, was in area one."
+00:35:45,Speaker A,Now is error three.
+00:35:47,Speaker A,"In a sense, the house moved to a different place."
+00:35:53,Speaker A,Of course.
+00:35:53,Speaker A,How do you get onto that second hard drive?
+00:35:57,Speaker A,This one?
+00:35:58,Speaker A,This one SVB.
+00:35:59,Speaker A,How do you get from SDA to SVB?
+00:36:03,Speaker A,"See, I don't really jump between the drives."
+00:36:07,Speaker A,It's just a folder takes me.
+00:36:08,Speaker A,Right.
+00:36:10,Speaker A,I guess I want to know your question.
+00:36:11,Speaker A,What do you mean?
+00:36:12,Speaker A,"I go to there, I just go to the folder, right?"
+00:36:15,Speaker A,"The system see the folder, they will know where to go."
+00:36:19,Speaker A,"Because the system know that oh, you want to go to Anna."
+00:36:22,Speaker A,"Anna is on that partition, right?"
+00:36:24,Speaker A,"You're going to go that partition because that's all the hard drive are here, right?"
+00:36:30,Speaker A,I can go any place I want to want.
+00:36:34,Speaker A,The kernel know how to go.
+00:36:36,Speaker A,I just type CD.
+00:36:38,Speaker A,Anna.
+00:36:39,Speaker A,Right.
+00:36:41,Speaker A,Then they go to slash.
+00:36:43,Speaker A,"They say oh, Anna is now here."
+00:36:45,Speaker A,Because Slash will know where Anna is because they see Anna is now.
+00:36:49,Speaker A,And then we'll go to the second hard drive to go to Anna.
+00:36:55,Speaker A,That's a very different thinking than Windows.
+00:37:01,Speaker A,"Okay, so I just changed the point attachment."
+00:37:04,Speaker A,"But the file was there before, is not destroyed."
+00:37:09,Speaker A,It's just in the previous partition in here.
+00:37:13,Speaker A,It's just not accessible anymore.
+00:37:16,Speaker A,"To make it accessible again, I can do this."
+00:37:19,Speaker A,"I can unmount, umount, the NF drive."
+00:37:26,Speaker A,So now the drive is gone.
+00:37:28,Speaker A,"Nothing, I'm sorry."
+00:37:35,Speaker A,"You see, the file that was there showed up, but the file after is gone because this one was on here."
+00:37:49,Speaker A,The after was on this place.
+00:37:58,Speaker A,"Steven, does it make sense?"
+00:38:00,Speaker A,Not a whole lot.
+00:38:02,Speaker A,Where are you stuck?
+00:38:03,Speaker A,"I guess, because you have two houses."
+00:38:08,Speaker A,You put one thing in the one house.
+00:38:10,Speaker A,Now you drive to a new place.
+00:38:11,Speaker A,Do you see the old thing in the new house?
+00:38:13,Speaker A,"The old house, right?"
+00:38:15,Speaker A,Because you have furnitures in both houses.
+00:38:19,Speaker A,"If you go to one, you wouldn't see the furniture in other houses."
+00:38:22,Speaker A,"But if you go back, right, then you can see the furnitures."
+00:38:26,Speaker A,"They're not gone, they're just not visible."
+00:38:31,Speaker A,"And now, Linux, you can create partitions like you create space, furnish them with file systems."
+00:38:39,Speaker A,Folders can move around.
+00:38:41,Speaker A,Most folders can move to any place they want to.
+00:38:45,Speaker A,"Okay, so that's why we mentioned if you have a database, the data folder should be on different partition."
+00:38:51,Speaker A,Web server.
+00:38:52,Speaker A,The Warvap data should be on different partition.
+00:38:56,Speaker A,"You want to partition them differently to be security, reliability, right."
+00:39:00,Speaker A,And efficiency.
+00:39:04,Speaker A,"Yeah, I know this one's technique, right?"
+00:39:06,Speaker A,To be more data structures.
+00:39:08,Speaker A,"Actually, all the inodes folders are double link list."
+00:39:13,Speaker A,They go back at the first.
+00:39:15,Speaker A,"So then when Anna is mounted to SDB one, where's the before mount file, so that file is on SDB, sorry, SDA three, but not accessible."
+00:39:28,Speaker A,Okay?
+00:39:29,Speaker A,"Because the root, the slash pointing to the new folder, you cannot go back."
+00:39:35,Speaker A,"So they're there, but not accessible."
+00:39:38,Speaker A,The only way to go back is to add mountain.
+00:39:41,Speaker A,Yeah.
+00:39:42,Speaker A,"Or you can move the furniture to a temporal location, move it to the new location."
+00:39:47,Speaker A,If you want that way.
+00:39:52,Speaker A,"Any questions, you have to know this."
+00:39:55,Speaker A,We're definitely going to test partition and return on the lab.
+00:39:59,Speaker A,"One, we're going to make partitions."
+00:40:01,Speaker A,I learned in my last lesson before I start with a partition.
+00:40:05,Speaker A,"Then people mess up, then they attend nothing to the exam."
+00:40:09,Speaker A,"Now, I put a partition in the last few partitions."
+00:40:12,Speaker A,So you do other ones first.
+00:40:14,Speaker A,You do partition.
+00:40:15,Speaker A,"If you mess up, you should have screenshots also."
+00:40:18,Speaker A,One thing is that make sure you take a square.
+00:40:20,Speaker A,"You save it, right?"
+00:40:21,Speaker A,"You don't want like, oh, I just put somewhere, I will do it together."
+00:40:25,Speaker A,You make a Word document before starting.
+00:40:28,Speaker A,"Whenever you take one, you put it in there, you save it."
+00:40:30,Speaker A,You save it.
+00:40:31,Speaker A,"Every year you tell me, oh, I forgot to save it across my machine."
+00:40:35,Speaker A,What do you want me to do?
+00:40:37,Speaker A,"I trust you, but I only get grid based on D twelve."
+00:40:40,Speaker A,"So you save, save, save you."
+00:40:42,Speaker A,"Okay, then you upload."
+00:40:45,Speaker A,"All right, don't wait last minute."
+00:40:47,Speaker A,"Sometimes people say, oh, you know, I was having everything, I was in a hurry, I misplaced them."
+00:40:52,Speaker A,I pasted twice.
+00:40:54,Speaker A,"Well, again, I'm sorry, but I only can grip based on what it is, right?"
+00:40:59,Speaker A,"So you see, one is right, you paste it, save it."
+00:41:02,Speaker A,Next one.
+00:41:03,Speaker A,"So make sure the ones you know is right are there to score, right?"
+00:41:09,Speaker A,Makes sense.
+00:41:14,Speaker A,Any other questions?
+00:41:16,Speaker A,"Yeah, I want to pick the same file."
+00:41:18,Speaker A,Can you have the same name for a file system?
+00:41:20,Speaker A,"Yeah, I can name the same file, but how would it search?"
+00:41:23,Speaker A,"Like, if you did LS Anna and there's two annas on two different partitions, which one would it go to?"
+00:41:29,Speaker A,"No, hold on."
+00:41:32,Speaker A,"There will not be the same folder name under the same hierarchy, right?"
+00:41:36,Speaker A,"So under this one, right?"
+00:41:38,Speaker A,"If you see here, you're saying that, are they going to have two anna?"
+00:41:41,Speaker A,"Well, if you had anna in the first hard drive and then they had Slash anna in the second hard drive."
+00:41:46,Speaker A,"No, here, that's the difference."
+00:41:48,Speaker A,The file system is the hierarchy.
+00:41:51,Speaker A,"You have slash, right?"
+00:41:53,Speaker A,The anna and other are subordinate of slash.
+00:41:56,Speaker A,You only have one anna in that sub level.
+00:41:59,Speaker A,"You would have two anna, right?"
+00:42:01,Speaker A,It doesn't matter.
+00:42:02,Speaker A,The falseism is a hierarchy.
+00:42:04,Speaker A,"Like, you have a lot of ministries in America, but each one is a different city."
+00:42:10,Speaker A,"So for this one, for each level is only one name available."
+00:42:14,Speaker A,"You can take one, right?"
+00:42:16,Speaker A,"But you can make anna in the lower level, and you can make that second tier anna go to a different partition."
+00:42:23,Speaker A,That's good.
+00:42:24,Speaker A,"Sometimes file systems and the folders are a little different, separate them."
+00:42:30,Speaker A,"So these folders, except six of most of them, like a Mount opt media, they can be mounted to a different partition."
+00:42:39,Speaker A,"Okay, so far, so good."
+00:42:43,Speaker A,That's a good question.
+00:42:48,Speaker A,On the other ones.
+00:42:52,Speaker A,Good.
+00:42:53,Speaker A,"All right, now we can do other things."
+00:43:00,Speaker A,"So the mount command is going to show you what's being mounted, right?"
+00:43:04,Speaker A,If you want to see mounted on there.
+00:43:09,Speaker A,So it's original partition.
+00:43:11,Speaker A,"So if I want so here, if I want to mount the Nfolder to the partition, I have to always give that command, right?"
+00:43:30,Speaker A,"What happens, I want them to be mount automatically when the system start."
+00:43:36,Speaker A,Does that make sense?
+00:43:38,Speaker A,Because I don't want to just manually do everything.
+00:43:40,Speaker A,"I want to have a lot of folders, a lot of partitions."
+00:43:42,Speaker A,I want them automatically mounted to the desired location when the systems restart or start.
+00:43:50,Speaker A,Does that make sense?
+00:43:53,Speaker A,Then we need to specify that in a configuration file.
+00:43:58,Speaker A,Okay?
+00:43:59,Speaker A,So now let's make that configuration file system table FS.
+00:44:17,Speaker A,Table makes sense.
+00:44:19,Speaker A,So there are six column in that file for each entry.
+00:44:26,Speaker A,So now I'm going to remove the comments.
+00:44:30,Speaker A,I will spend a meeting up for the six columns.
+00:44:34,Speaker A,So the space doesn't matter how many you have.
+00:44:36,Speaker A,"You have to have one space or a tablet, it doesn't matter."
+00:44:38,Speaker A,But you have six columns.
+00:44:41,Speaker A,The first column referred to the name of that device or partition.
+00:44:46,Speaker A,You can buy the dev UUID or a label.
+00:44:53,Speaker A,"So the exam, I can test any of them."
+00:44:57,Speaker A,So you can use any of that to mount to refer to the heart partition.
+00:45:02,Speaker A,Makes sense.
+00:45:04,Speaker A,The second one is the folder you want to mounting to.
+00:45:08,Speaker A,The example before was Anna.
+00:45:09,Speaker A,"But this one I use mount another folder, the type of file system I want mount to, right?"
+00:45:16,Speaker A,"So I made an extension, three."
+00:45:18,Speaker A,I want to change it to three.
+00:45:24,Speaker A,And the fourth columns are the options or the parameters you can mount.
+00:45:32,Speaker A,"There are many, many parameters, over 100 of them."
+00:45:35,Speaker A,"So we just use default, that's fine."
+00:45:38,Speaker A,Okay.
+00:45:39,Speaker A,I want to mention one thing people make the computer wouldn't stop just one typo.
+00:45:45,Speaker A,I see that every year.
+00:45:46,Speaker A,"It's funny, it's a plural, it's default."
+00:45:51,Speaker A,Don't laugh.
+00:45:52,Speaker A,Right.
+00:45:52,Speaker A,"I'm telling you, many people just missing that s and it wouldn't work."
+00:45:56,Speaker A,Ask me why.
+00:45:57,Speaker A,That time I said I couldn't see because your computer couldn't start.
+00:46:01,Speaker A,But I can tell you I know what happened.
+00:46:04,Speaker A,Okay?
+00:46:05,Speaker A,Defaults.
+00:46:07,Speaker A,"Don't forget, that very important."
+00:46:09,Speaker A,The last two is this one is to whether you do a dump.
+00:46:12,Speaker A,Dump like backup.
+00:46:15,Speaker A,The last one is the check.
+00:46:17,Speaker A,"Remember on the Windows you start computer every six months, three months they will do a check."
+00:46:22,Speaker A,So that's the indicator that do we want to check or not?
+00:46:25,Speaker A,We don't want to check for record.
+00:46:27,Speaker A,"Just zero, zero for the last two."
+00:46:28,Speaker A,"Okay, so last one is the check."
+00:46:31,Speaker A,This one is where they will backup.
+00:46:33,Speaker A,"So device folder, type options."
+00:46:39,Speaker A,So now let's save it.
+00:46:42,Speaker A,"That's the bi quit, right?"
+00:46:45,Speaker A,So now I can restart my computer to put it right.
+00:46:49,Speaker A,I don't have to restart.
+00:46:51,Speaker A,I can do a mom a that scale.
+00:47:02,Speaker A,They want me to do a reload that's fine.
+00:47:04,Speaker A,Make sure everything is synchronized.
+00:47:09,Speaker A,Let's graph MMT we can use.
+00:47:13,Speaker A,Now.
+00:47:14,Speaker A,Block Dev SDB.
+00:47:19,Speaker A,You see the mount folder has been mounted.
+00:47:22,Speaker A,"I didn't give any command specific, I just mount A."
+00:47:25,Speaker A,So mount A going to do that.
+00:47:27,Speaker A,You're going to check every entry in FS table file.
+00:47:31,Speaker A,"If it's not mounted, it won't mount it."
+00:47:34,Speaker A,"If it has been mounted, doesn't touch."
+00:47:38,Speaker A,Makes sense.
+00:47:42,Speaker A,"Okay, so mount A is going to mount whatever in that table or in a file that has not been mounted."
+00:47:51,Speaker A,"So in the exam, you don't have to reboot it, do a mount A or save you all the trouble, because if you had an error, they will tell you."
+00:48:00,Speaker A,"But if you do the reboot if I had an error, then it's not going to boot."
+00:48:07,Speaker A,Right.
+00:48:08,Speaker A,So make sure on that day you have a backup machine.
+00:48:11,Speaker A,You never know.
+00:48:12,Speaker A,"We're humans, we all make mistakes."
+00:48:14,Speaker A,"But I'm telling you, have a backup, it's going to save your life."
+00:48:18,Speaker A,"I had one student, they didn't have a backup."
+00:48:21,Speaker A,"I said, Why you don't have a backup?"
+00:48:23,Speaker A,Because I'm very confident.
+00:48:26,Speaker A,I didn't know my computer would crash during the exam.
+00:48:29,Speaker A,"Well, it happened."
+00:48:31,Speaker A,"Wait, you mean like a backup backup second VM."
+00:48:34,Speaker A,"Exactly, yeah."
+00:48:36,Speaker A,So we'll show you.
+00:48:37,Speaker A,How do we make a backup?
+00:48:38,Speaker A,"Very shortly, if you use an Armchip, you're in luck."
+00:48:42,Speaker A,"I made a template already, so you can download it."
+00:48:46,Speaker A,"So if on your computer, you can just export as a template, right."
+00:48:50,Speaker A,"So save your current machine, make sure it's good."
+00:48:52,Speaker A,"You export as a template, right."
+00:48:55,Speaker A,"So you download this one, because I have the class folder, right?"
+00:48:59,Speaker A,"So if you go here, after you download it, you scan for it, you put it in another folder, you scan for it."
+00:49:07,Speaker A,So the Mac version will scan that thing.
+00:49:10,Speaker A,You download it and recognize as a VM.
+00:49:14,Speaker A,"You can download that file for many, many times."
+00:49:18,Speaker A,"Say that it has a different name, like VM one, VM 23456, right?"
+00:49:23,Speaker A,Then each time they're going to recognize it.
+00:49:26,Speaker A,"Then you just have many, many backups."
+00:49:29,Speaker A,"So I made a one for the Arm version, but for Windows, you can make that similar procedure, have at least one backup that's going to help you."
+00:49:37,Speaker A,"That's a safety net, though."
+00:49:39,Speaker A,"If you mess up, that's fine, we'll have a second."
+00:49:42,Speaker A,"And if we mess up two, what happened?"
+00:49:44,Speaker A,"Once it's doing mess up two, it can really quickly load scan the new one."
+00:49:48,Speaker A,"Load it, do it."
+00:49:55,Speaker A,All right.
+00:49:56,Speaker A,"So again, that's for the Arm version of the map, you can get one."
+00:50:00,Speaker A,"It's very fully compatible with the cost, so it's a good amount."
+00:50:06,Speaker A,Does that make sense?
+00:50:07,Speaker A,"So far, everything we touch, yes."
+00:50:11,Speaker A,There's a place that's question that's a lot of things today.
+00:50:14,Speaker A,"I know, I know, it's a lot of stuff."
+00:50:20,Speaker A,"All right, now I will show you a different way of mounting."
+00:50:23,Speaker A,I want to use the UUID way.
+00:50:26,Speaker A,What I mount the mount folder.
+00:50:29,Speaker A,So if you check that folder is now mounted you see that again.
+00:50:34,Speaker A,"umount, is I'm mounting, right?"
+00:50:36,Speaker A,So now I want to use the second option of UUID.
+00:50:49,Speaker A,You see that I can use this command again you want to write down the command in case the examiner want to do that.
+00:50:56,Speaker A,That's the UUID.
+00:50:58,Speaker A,It's called block ID.
+00:51:01,Speaker A,Yes.
+00:51:01,Speaker A,Is that when you were saying you could use the UID?
+00:51:04,Speaker A,No.
+00:51:07,Speaker A,What do you mean I can use this command to show the UID?
+00:51:11,Speaker A,"Okay, I want to use that to mount it."
+00:51:14,Speaker A,"Okay, so here, that's the key you want to remember it's worth sometimes you buy a mouse because do you want to write that down of UUID and type in you want to copy paste, right?"
+00:51:33,Speaker A,"Right, Paul?"
+00:51:34,Speaker A,Makes sense.
+00:51:35,Speaker A,I'll show you how do I save you three minutes.
+00:51:38,Speaker A,"Now I just select right within my mouse I select it in Linux, selection means copy, right?"
+00:51:46,Speaker A,"I go to my file, I comment this one then I click on the middle button so easy, piece of cake."
+00:52:08,Speaker A,"Middle button, you click on it and paste save you at least three minutes."
+00:52:16,Speaker A,You know what?
+00:52:16,Speaker A,"Under stress, many people type wrong."
+00:52:19,Speaker A,"I tell them, why don't we buy a mouse?"
+00:52:22,Speaker A,"You can go to my lab, borrow one too for that day as long as you return it now so good, right?"
+00:52:31,Speaker A,So now I can do this.
+00:52:34,Speaker A,"Let's mount it actually again, should be okay to mount it."
+00:52:42,Speaker A,"Yeah, it's mounted."
+00:52:45,Speaker A,"So we learned two ways the device name, the UUID, right?"
+00:52:51,Speaker A,We can make a label too.
+00:52:55,Speaker A,So let's see the label e two label let's make a label label it demo.
+00:53:07,Speaker A,"About that's the label just made a label then, right?"
+00:53:46,Speaker A,"You mount this folder, right?"
+00:54:17,Speaker A,"Mounted, right?"
+00:54:21,Speaker A,So I showed three different ways of mounting.
+00:54:24,Speaker A,You have to know every single one.
+00:54:26,Speaker A,UID is the most one we use today because it's unique across the world.
+00:54:34,Speaker A,"Okay, so far so good."
+00:54:39,Speaker A,Any questions?
+00:54:44,Speaker A,I will show you the file that has table dead.
+00:54:49,Speaker A,We got the UUID.
+00:54:51,Speaker A,We got three different ways by the device name device name UUID and label.
+00:55:00,Speaker A,"Yes, reverse are good."
+00:55:06,Speaker A,In the future we can do another one like from the network we can do a log did I tell the story?
+00:55:15,Speaker A,"That student hack into the server, remove the log changes great, right?"
+00:55:21,Speaker A,And actually we have a second log it's not on local computer.
+00:55:26,Speaker A,The log is mounted to a network file system I didn't know that.
+00:55:32,Speaker A,So technically Linux is very good.
+00:55:35,Speaker A,"It can log in the system, click the password, change the grade he reads his log files history they didn't know in the secondary they didn't call in the end of a semester because they do auditing in the end to compare the logs found discrepancy technically it's good, but ethics is wrong."
+00:55:57,Speaker A,Very bad.
+00:55:59,Speaker A,"Yeah, mom and the limits is good."
+00:56:04,Speaker A,"I have another case in the HotelIan security that the students didn't do the technical hacking, but he used humans hacking."
+00:56:13,Speaker A,"He come to the classroom, replace the keyboard with the keyboard he bought that has the fingerprint."
+00:56:21,Speaker A,Ten minutes before the teacher comes in and reads the keyboard.
+00:56:24,Speaker A,"He know the teacher type of the password, log in."
+00:56:32,Speaker A,Guess how it's called.
+00:56:34,Speaker A,Guess how it's called.
+00:56:36,Speaker A,Key logging.
+00:56:37,Speaker A,"Man, he's smart."
+00:56:39,Speaker A,Is it?
+00:56:39,Speaker A,But it's so silly.
+00:56:40,Speaker A,"He make his score every single, single 100 he's not feeling."
+00:56:44,Speaker A,"It was like 80, 90 rush."
+00:56:46,Speaker A,But he won an a.
+00:56:47,Speaker A,But he made everything 100 isn't like to me.
+00:56:50,Speaker A,I'm so dumb.
+00:56:51,Speaker A,"Why do you make a 94, right?"
+00:56:54,Speaker A,"I mean, you make 100."
+00:56:56,Speaker A,"I may not remember 93, 94."
+00:56:58,Speaker A,"But if you do 100, I promise you I remember ever 100 people I did anyway earned a term called a flat risk."
+00:57:08,Speaker A,He was notified.
+00:57:10,Speaker A,He panicked.
+00:57:11,Speaker A,"I bought a ticket the second day in the morning, he ran away."
+00:57:16,Speaker A,"He never finished four years, didn't have a degree."
+00:57:18,Speaker A,He never can come back.
+00:57:21,Speaker A,That term put a flat risk.
+00:57:23,Speaker A,It can flag away.
+00:57:25,Speaker A,Don't do that.
+00:57:26,Speaker A,It doesn't work.
+00:57:28,Speaker A,Okay.
+00:57:29,Speaker A,You don't have to always get an A.
+00:57:34,Speaker A,"All right, I guess you guys like the story about the Linux."
+00:57:38,Speaker A,We'll have a lot of security stories if you're taking the secret class.
+00:57:42,Speaker A,"All right, so first I'm good."
+00:57:45,Speaker A,We clear the ideas.
+00:57:46,Speaker A,F table.
+00:57:48,Speaker A,So now you should know the three steps.
+00:57:50,Speaker A,Make a partition.
+00:57:52,Speaker A,Make it a partition that I want it.
+00:57:54,Speaker A,Right?
+00:57:55,Speaker A,Make a file system on it as I want it.
+00:57:58,Speaker A,And mount the folder.
+00:58:00,Speaker A,And mount the folder in Fsko in the manner I want it.
+00:58:04,Speaker A,UUID label or name.
+00:58:08,Speaker A,Yes.
+00:58:09,Speaker A,Do we need to memorize all the acronyms for the different file systems?
+00:58:13,Speaker A,"It's only since in two, three, four."
+00:58:16,Speaker A,"Okay, yeah."
+00:58:17,Speaker A,That's all we need.
+00:58:17,Speaker A,Now we're not in much.
+00:58:18,Speaker A,"Yes, question."
+00:58:20,Speaker A,That's good.
+00:58:21,Speaker A,All right.
+00:58:22,Speaker A,Now why don't we do some deletion and recreate some partition to close your demo again?
+00:58:28,Speaker A,Okay?
+00:58:31,Speaker A,"Month to month folder, disk, DB."
+00:58:38,Speaker A,Right?
+00:58:40,Speaker A,So that's the partition we have.
+00:58:43,Speaker A,Can tell me what command allows to delete a partition?
+00:58:48,Speaker A,D.
+00:58:49,Speaker A,Right.
+00:58:49,Speaker A,So let's start with the D.
+00:58:55,Speaker A,We want to delete all of them.
+00:58:58,Speaker A,This 1D again.
+00:59:01,Speaker A,D again.
+00:59:03,Speaker A,Done.
+00:59:04,Speaker A,Nothing.
+00:59:06,Speaker A,We save it.
+00:59:11,Speaker A,No partitions whatsoever.
+00:59:15,Speaker A,So now I'm going to create a GPT.
+00:59:18,Speaker A,Then create partitions.
+00:59:20,Speaker A,"Okay, in the exam I may tell you what I want."
+00:59:23,Speaker A,MBR or GPT.
+00:59:24,Speaker A,Right?
+00:59:24,Speaker A,You start with the right things.
+00:59:28,Speaker A,So let's do left disk.
+00:59:34,Speaker A,Let's do M again.
+00:59:35,Speaker A,I want a GPT.
+00:59:36,Speaker A,Let's do G.
+00:59:38,Speaker A,"Let's save it, make sure it's good, then do the test L to verify it."
+00:59:45,Speaker A,"Good, right?"
+00:59:46,Speaker A,Let's make more new partitions.
+00:59:49,Speaker A,That's much easier.
+00:59:50,Speaker A,Paste the one default 600 Mac.
+00:59:55,Speaker A,"Whatever I want, right?"
+00:59:58,Speaker A,Yes.
+00:59:58,Speaker A,Remove it.
+01:00:00,Speaker A,New again.
+01:00:00,Speaker A,That kind of 1700 meg.
+01:00:08,Speaker A,We made it.
+01:00:09,Speaker A,"Two partitions DB one, DB two."
+01:00:14,Speaker A,"The rest step are the same, right?"
+01:00:17,Speaker A,"Not take that can reload, make sure everything is okay, and make FS t condition four again."
+01:00:30,Speaker A,I may talk.
+01:00:31,Speaker A,"Two, three, four, whatever I want to have."
+01:00:33,Speaker A,Right.
+01:00:34,Speaker A,"Then on Dev one, I make a three."
+01:00:41,Speaker A,On SDB Two.
+01:00:43,Speaker A,"Whatever I want you to do, you can know how to do it."
+01:00:53,Speaker A,Two files with different partitions on it.
+01:00:57,Speaker A,"I can mount it, right?"
+01:00:58,Speaker A,We'll mount it again.
+01:01:04,Speaker A,Do the second one right.
+01:01:07,Speaker A,Have another folder.
+01:01:09,Speaker A,Maybe have a gray folder.
+01:01:14,Speaker A,I can mount this one to tab SD two.
+01:01:22,Speaker A,Sorry.
+01:01:32,Speaker A,This one just showed.
+01:01:37,Speaker A,Take you less than three minutes to an exam you should have done in five minutes.
+01:01:44,Speaker A,From zero to zero.
+01:01:47,Speaker A,Right?
+01:01:48,Speaker A,"If you do that in five minutes, you like it would have got 100."
+01:01:51,Speaker A,It's high.
+01:01:53,Speaker A,"Practice, practice, practice."
+01:01:57,Speaker A,Right?
+01:02:00,Speaker A,We're good.
+01:02:01,Speaker A,"I know you guys have quieted it, I think your eyes on the data structure exam."
+01:02:06,Speaker A,Am I right?
+01:02:08,Speaker A,It's okay.
+01:02:09,Speaker A,I will let you guys go a little early today.
+01:02:12,Speaker A,I know it's a lot.
+01:02:13,Speaker A,"Practice, practice."
+01:02:15,Speaker A,All right.
+01:02:16,Speaker A,Good luck with your exam.
+01:02:18,Speaker A,Tell me how much you enjoy the exam.
+01:02:21,Speaker A,Should feel good.
+01:02:25,Speaker A,And homework is posted.
